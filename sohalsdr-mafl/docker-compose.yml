@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      # <app-id>_<docker-service-name>_1
+      APP_HOST: sohalsdr-mafl_mafl_1
+      APP_PORT: 3000
+    
+    mafl:
+    image: ghcr.io/hywax/mafl:v0.15.4
+    restart: unless-stopped
+    volumes:
+      - ${APP_DATA_DIR}/mafl:/app/data
