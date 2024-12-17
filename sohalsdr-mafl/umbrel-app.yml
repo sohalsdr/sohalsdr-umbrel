@@ -9,25 +9,39 @@ port: 7700
 description: >-
   Mafl is a very flexible tool for creating your own homepage. It allows you to create lists of services, categorize and track the performance of certain services.
 
+
   Ideal for those who have their own home server with a bunch of services. With Mafl you can quickly and easily collect all links in one place.
 
+
   In addition to the functionality of regular lists, there are dynamic services. They connect to third-party APIs. They receive the necessary information and display it on the service card. All information is protected. API requests are hidden from the client in a separate application layer.
+
 
   Features:
 
   - 🔐 Privacy. All requests to third-party services occur in backend.
+
   - ⚡ Real-time. Interactive cards with extra information.
+  
   - 🌎 Multi-language. Supports multiple languages.
+  
   - 🎨 Themes. Customize the look to your liking.
+  
   - 🗂️ Grouping. Create custom service groups.
+  
   - 🏷️ Tags. Add tags to your services.
+  
   - 👌 Easy setup. A few lines of yaml and your homepage is ready to go.
+  
   - 🚀 Fast. Everything is fast and free of hang-ups.
+  
   - 🐳 Docker. Optimized docker images for popular platforms.
+  
   - ✨ Free. Mafl is completely free and open source.
+  
   - 📲 PWA. Installable application.
 
-  Note: This is an integration of Mafl created and distributed by a third party. This Umbrel App is not affiliated in any way with the original developer.
+
+  Note: This is an integration of Mafl created and distributed by a third party. This Umbrel Community App is not affiliated in any way with the original developer.
 
 developer: hywax
 website: https://hywax.space
